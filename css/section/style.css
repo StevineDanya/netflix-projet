@@ -42,7 +42,7 @@
 .main{
     width: 100%;
     height: 3200px;
-    background-color: darkred;
+
 }
 
 .main__section-first{
@@ -78,7 +78,8 @@ color: white;
 }
 .desc1{
     padding-left: 100px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .hero__auth{
 width: 586PX;
@@ -112,22 +113,26 @@ background-color: rgb(20, 136, 136);
     display: flex;
     justify-content: center;
      border-bottom: 8px solid rgb(53, 49, 49);
+     justify-content: center;
+     margin-top: 10px;
 }
 .hero2__title{
-    width: 425px;
-    height: 59px;
-    margin-top: 100px;
+    width: 460px;
+    height: 250px;
+    margin-top: 130px;
+    background-color: rgb(0, 0, 0);
     
 }
 .tle2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
 
 }
 .desc2{
-    color: white;
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .hero2__img{
     display: flex;
@@ -236,16 +241,19 @@ background-color: rgb(20, 136, 136);
     background-color: rgb(0, 0, 0);
     margin-right: 20px;
     margin-top: 40px;
+    padding: 5px;
 
 }
 .hero3__title{
     font-size: 48px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hero3__desc{
     font-size: 28px;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main__section-four{
@@ -262,8 +270,9 @@ background-color: rgb(20, 136, 136);
     width: 636px;
     height: 273px;
     background-color: rgb(0, 0, 0);
-    margin-top: 40px;
+    margin-top: 60px;
     margin-right: 300px;
+   padding: 5px;
    
 }
 
@@ -273,7 +282,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: white;
 }
 .hero4__desc{
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-top: 5px;
 }
@@ -425,7 +435,8 @@ width: 167px;
 height: 17px;
 background-color: rgb(0, 0, 0);
 text-decoration: underline;
-color: white;
+color: rgb(68, 61, 61);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .colone1{
     width: 123px;
